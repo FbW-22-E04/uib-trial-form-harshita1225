@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+:root{
+    font-size:62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:1.6rem;
+}
+
+main{
+    width:70%;
+    margin:0 auto;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("./img/bg-desktop.png");
+    background-size: cover;
+    padding:3rem;
+
+}
+
+.header{
+    width:50%;
+    background-color: rgba(115, 32, 194, 0.836);
+    color: white;
+    border-radius:1rem;
+    margin:3rem auto;
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.39);
+    padding:2rem;
+    text-align: center;
+}
+
+h4{
+    display: inline;
+}
+.heading-part1{
+    font-weight: 600;
+}
+
+.heading-part2{
+    font-weight: 400;
+}
+
+form{
+    width:50%;
+    background-color: white;
+    border-radius:1rem;
+    padding:2rem;
+    margin:3rem auto;
+    box-shadow: 0 7px 2px rgba(0, 0, 0, 0.39);
+}
+input{
+    font-size:1.8rem;
+    width:90%;
+    margin:2rem;
+    padding:1.5rem;
+    border:1px solid rgba(137, 43, 226, 0.436);
+    border-radius: 0.5rem;
+}
+
+.field{
+    position: relative;
+}
+
+
+.button{
+    width:90%;
+    padding:1rem;
+    background-color:hsl(154, 59%, 51%);
+    color: white;
+    margin:1rem auto;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.39);
+}
+button{
+    background-color: transparent;
+    color: white;
+    border:none;
+    font-size:1.8rem;
+    padding:1rem;
+    cursor: pointer;
+}
+
+.footer{
+    width:80%;
+    padding:1rem;
+    font-size:1.2rem;
+    color: rgba(128, 128, 128, 0.788);
+    margin:2rem auto;
+    color:hsl(246, 25%, 77%);
+    
+}
+
+footer a {
+    text-decoration:none;
+    color:rgb(201, 71, 71);
+}
+.field img{
+    position:absolute;
+    display:block;
+    bottom:40%;
+    right:10%;
+     
+}
+
+.error-msg{
+    color:red;
+    font-size:1.3rem;
+    position:absolute;
+    bottom:0%;
+    right:6%;
+    
+}
